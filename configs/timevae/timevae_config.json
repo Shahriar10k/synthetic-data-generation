@@ -1,0 +1,72 @@
+{
+    "config": {
+        "project_root": "/home/iailab42/khans1/projects",
+        "seed": 42,
+        "data": {
+            "real_data_dir": "data",
+            "input_x_file": "all_X.npy",
+            "input_y_file": "all_y.npy",
+            "input_subject_file": "all_subject.npy",
+            "normalization_stats_file": "normalization_stats.npz",
+            "expected_seq_len": 512,
+            "expected_num_channels": 6,
+            "target_hz": 64,
+            "window_len": 512,
+            "shift_len": 128,
+            "channel_names": [
+                "ACC_x",
+                "ACC_y",
+                "ACC_z",
+                "BVP",
+                "EDA",
+                "TEMP"
+            ]
+        },
+        "model": {
+            "model_name": "timevae_conditional_6ch_v2",
+            "latent_dim": 128,
+            "label_embedding_dim": 32,
+            "hidden_dims": [
+                128,
+                256,
+                256
+            ],
+            "encoder_dense_dim": 512,
+            "reconstruction_weight": 10.0,
+            "temporal_weight": 2.0,
+            "kl_weight": 1e-06
+        },
+        "training": {
+            "batch_size": 128,
+            "epochs": 100,
+            "learning_rate": 0.001,
+            "weight_decay": 1e-05,
+            "val_fraction": 0.1,
+            "patience": 12,
+            "min_delta": 1e-05,
+            "num_workers": 0,
+            "force_retrain": false
+        },
+        "generation": {
+            "synthetic_multiplier": 1.0,
+            "synthetic_subject_count": 30,
+            "generation_batch_size": 512
+        },
+        "outputs": {
+            "save_diagnostic_plots": true
+        }
+    },
+    "paths": {
+        "real_data_dir": "/home/iailab42/khans1/projects/data",
+        "synthetic_dir": "/home/iailab42/khans1/projects/data/synthetic/timevae",
+        "model_dir": "/home/iailab42/khans1/projects/models/timevae",
+        "results_dir": "/home/iailab42/khans1/projects/results/timevae",
+        "figures_dir": "/home/iailab42/khans1/projects/figures/timevae",
+        "configs_dir": "/home/iailab42/khans1/projects/configs/timevae",
+        "logs_dir": "/home/iailab42/khans1/projects/logs/timevae",
+        "model_file": "/home/iailab42/khans1/projects/models/timevae/timevae_conditional_6ch.pt",
+        "config_file": "/home/iailab42/khans1/projects/configs/timevae/timevae_config.json",
+        "label_map_file": "/home/iailab42/khans1/projects/configs/timevae/timevae_label_map.json",
+        "log_file": "/home/iailab42/khans1/projects/logs/timevae/timevae_run.log"
+    }
+}
