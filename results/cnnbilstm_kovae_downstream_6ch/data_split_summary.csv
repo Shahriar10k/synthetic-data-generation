@@ -1,5 +1,0 @@
-split,num_windows,subjects
-real_train,30104,"S2,S3,S5,S6,S9,S11,S12,S13,S14,S15"
-real_val,6740,"S1,S4"
-real_test,10063,"S7,S8,S10"
-synthetic_all,8000,"SYN_001,SYN_002,SYN_003,SYN_004,SYN_005,SYN_006,SYN_007,SYN_008,SYN_009,SYN_010"

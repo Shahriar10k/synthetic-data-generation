@@ -1,4 +1,0 @@
-split,subjects,num_subjects,percentage_by_subject,split_mode,seed
-train,"S2,S3,S5,S6,S9,S11,S12,S13,S14,S15",10,66.66666666666666,random_fixed_seed_42,42
-val,"S1,S4",2,13.333333333333334,random_fixed_seed_42,42
-test,"S7,S8,S10",3,20.0,random_fixed_seed_42,42
