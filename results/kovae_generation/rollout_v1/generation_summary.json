@@ -1,0 +1,54 @@
+{
+  "generation_method": "rollout_v1",
+  "num_generated_windows": 5000,
+  "num_synthetic_subjects": 10,
+  "windows_per_subject": 500,
+  "X_bvp_shape": [
+    5000,
+    512,
+    1
+  ],
+  "X_acc_shape": [
+    5000,
+    256,
+    3
+  ],
+  "X_slow_shape": [
+    5000,
+    32,
+    2
+  ],
+  "y_shape": [
+    5000
+  ],
+  "subject_shape": [
+    5000
+  ],
+  "activity_counts": {
+    "1": 490,
+    "2": 334,
+    "3": 232,
+    "4": 377,
+    "5": 745,
+    "6": 1431,
+    "7": 489,
+    "8": 902
+  },
+  "subject_counts": {
+    "KOVAE_SYN_rollout_v1_001": 500,
+    "KOVAE_SYN_rollout_v1_002": 500,
+    "KOVAE_SYN_rollout_v1_003": 500,
+    "KOVAE_SYN_rollout_v1_004": 500,
+    "KOVAE_SYN_rollout_v1_005": 500,
+    "KOVAE_SYN_rollout_v1_006": 500,
+    "KOVAE_SYN_rollout_v1_007": 500,
+    "KOVAE_SYN_rollout_v1_008": 500,
+    "KOVAE_SYN_rollout_v1_009": 500,
+    "KOVAE_SYN_rollout_v1_010": 500
+  },
+  "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+  "results_folder": "/home/iailab42/khans1/projects/ir/results/kovae_generation/rollout_v1",
+  "figures_folder": "/home/iailab42/khans1/projects/ir/figures/kovae_generation/rollout_v1",
+  "outputs_are_normalized": true,
+  "save_plot": true
+}

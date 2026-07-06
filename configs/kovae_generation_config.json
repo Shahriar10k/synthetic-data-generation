@@ -1,0 +1,21 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "checkpoint_path": "models/checkpoints/kovae_best.pt",
+  "koopman_matrix_path": "results/kovae/best_koopman_matrix.npy",
+  "processed_subdir": "data/processed/native_rates",
+  "random_seed": 123,
+  "num_synthetic_subjects": 10,
+  "windows_per_subject": 500,
+  "generation_batch_size": 128,
+  "synthetic_subject_prefix": "KOVAE_SYN",
+  "activity_sampling_strategy": "train_distribution",
+  "stabilize_koopman": true,
+  "target_spectral_radius": 0.98,
+  "latent_noise_scale": 0.03,
+  "z0_noise_scale": 0.05,
+  "subject_style_strategy": "interpolate_train_subject_embeddings",
+  "subject_style_noise_scale": 0.05,
+  "save_plot": true,
+  "max_plot_examples": 4,
+  "output_subdir": "data/synthetic_subjects/kovae"
+}

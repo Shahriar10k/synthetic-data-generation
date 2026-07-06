@@ -1,0 +1,78 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "raw_data_dir": "/home/iailab42/g2-synthetic/PPG_FieldStudy",
+  "subject_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "random_seed": 42,
+  "acc_hz": 32,
+  "bvp_hz": 64,
+  "slow_hz": 4,
+  "label_hz": 4,
+  "window_seconds": 8.0,
+  "shift_seconds": 2.0,
+  "min_label_coverage": 0.8,
+  "drop_activity_zero": true,
+  "save_raw_arrays": true,
+  "save_debug_csvs": true,
+  "num_debug_windows": 10,
+  "train_subjects": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S9",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "val_subjects": [
+    "S14",
+    "S15"
+  ],
+  "test_subjects": [
+    "S7",
+    "S8",
+    "S10"
+  ],
+  "s6_max_valid_seconds": 5400,
+  "acc_channel_names": [
+    "ACC_x",
+    "ACC_y",
+    "ACC_z"
+  ],
+  "bvp_channel_names": [
+    "BVP"
+  ],
+  "slow_channel_names": [
+    "EDA",
+    "TEMP"
+  ],
+  "activity_names": {
+    "0": "transient_or_unlabeled",
+    "1": "sitting",
+    "2": "stairs",
+    "3": "soccer",
+    "4": "cycling",
+    "5": "driving",
+    "6": "lunch",
+    "7": "walking",
+    "8": "working"
+  }
+}

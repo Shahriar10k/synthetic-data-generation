@@ -1,0 +1,11 @@
+{
+  "best_epoch": 78,
+  "best_val_total_loss": 0.05084163339411626,
+  "total_parameters": 347446,
+  "trainable_parameters": 347446,
+  "num_train_windows": 30762,
+  "num_val_windows": 6100,
+  "num_test_windows_reserved": 10063,
+  "checkpoint_best": "/home/iailab42/khans1/projects/ir/models/checkpoints/kovae_best.pt",
+  "checkpoint_last": "/home/iailab42/khans1/projects/ir/models/checkpoints/kovae_last.pt"
+}

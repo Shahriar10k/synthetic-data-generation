@@ -1,0 +1,130 @@
+{
+  "methods_run": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "save_plot": true,
+  "shared_base_folders": {
+    "synthetic_base": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae",
+    "results_base": "/home/iailab42/khans1/projects/ir/results/kovae_generation",
+    "figures_base": "/home/iailab42/khans1/projects/ir/figures/kovae_generation"
+  },
+  "shared_koopman_stability": {
+    "raw_spectral_radius": 1.4776456356048584,
+    "target_spectral_radius": 0.98,
+    "stable_spectral_radius": 0.9800000190734863,
+    "stabilize_koopman": true,
+    "scaling_factor": 0.6632171992974808,
+    "stability_action": "scaled_matrix"
+  },
+  "method_summaries": {
+    "rollout_v1": {
+      "generation_method": "rollout_v1",
+      "num_generated_windows": 5000,
+      "num_synthetic_subjects": 10,
+      "windows_per_subject": 500,
+      "X_bvp_shape": [
+        5000,
+        512,
+        1
+      ],
+      "X_acc_shape": [
+        5000,
+        256,
+        3
+      ],
+      "X_slow_shape": [
+        5000,
+        32,
+        2
+      ],
+      "y_shape": [
+        5000
+      ],
+      "subject_shape": [
+        5000
+      ],
+      "activity_counts": {
+        "1": 490,
+        "2": 334,
+        "3": 232,
+        "4": 377,
+        "5": 745,
+        "6": 1431,
+        "7": 489,
+        "8": 902
+      },
+      "subject_counts": {
+        "KOVAE_SYN_rollout_v1_001": 500,
+        "KOVAE_SYN_rollout_v1_002": 500,
+        "KOVAE_SYN_rollout_v1_003": 500,
+        "KOVAE_SYN_rollout_v1_004": 500,
+        "KOVAE_SYN_rollout_v1_005": 500,
+        "KOVAE_SYN_rollout_v1_006": 500,
+        "KOVAE_SYN_rollout_v1_007": 500,
+        "KOVAE_SYN_rollout_v1_008": 500,
+        "KOVAE_SYN_rollout_v1_009": 500,
+        "KOVAE_SYN_rollout_v1_010": 500
+      },
+      "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+      "results_folder": "/home/iailab42/khans1/projects/ir/results/kovae_generation/rollout_v1",
+      "figures_folder": "/home/iailab42/khans1/projects/ir/figures/kovae_generation/rollout_v1",
+      "outputs_are_normalized": true,
+      "save_plot": true
+    },
+    "posterior_bank_v2": {
+      "generation_method": "posterior_bank_v2",
+      "num_generated_windows": 5000,
+      "num_synthetic_subjects": 10,
+      "windows_per_subject": 500,
+      "X_bvp_shape": [
+        5000,
+        512,
+        1
+      ],
+      "X_acc_shape": [
+        5000,
+        256,
+        3
+      ],
+      "X_slow_shape": [
+        5000,
+        32,
+        2
+      ],
+      "y_shape": [
+        5000
+      ],
+      "subject_shape": [
+        5000
+      ],
+      "activity_counts": {
+        "1": 475,
+        "2": 382,
+        "3": 218,
+        "4": 377,
+        "5": 755,
+        "6": 1469,
+        "7": 478,
+        "8": 846
+      },
+      "subject_counts": {
+        "KOVAE_SYN_posterior_bank_v2_001": 500,
+        "KOVAE_SYN_posterior_bank_v2_002": 500,
+        "KOVAE_SYN_posterior_bank_v2_003": 500,
+        "KOVAE_SYN_posterior_bank_v2_004": 500,
+        "KOVAE_SYN_posterior_bank_v2_005": 500,
+        "KOVAE_SYN_posterior_bank_v2_006": 500,
+        "KOVAE_SYN_posterior_bank_v2_007": 500,
+        "KOVAE_SYN_posterior_bank_v2_008": 500,
+        "KOVAE_SYN_posterior_bank_v2_009": 500,
+        "KOVAE_SYN_posterior_bank_v2_010": 500
+      },
+      "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/posterior_bank_v2",
+      "results_folder": "/home/iailab42/khans1/projects/ir/results/kovae_generation/posterior_bank_v2",
+      "figures_folder": "/home/iailab42/khans1/projects/ir/figures/kovae_generation/posterior_bank_v2",
+      "outputs_are_normalized": true,
+      "save_plot": true
+    }
+  }
+}

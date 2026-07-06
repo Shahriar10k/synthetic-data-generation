@@ -1,0 +1,8 @@
+{
+  "raw_spectral_radius": 1.4776456356048584,
+  "target_spectral_radius": 0.98,
+  "stable_spectral_radius": 0.9800000190734863,
+  "stabilize_koopman": true,
+  "scaling_factor": 0.6632171992974808,
+  "stability_action": "scaled_matrix"
+}

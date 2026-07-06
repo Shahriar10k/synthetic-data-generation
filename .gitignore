@@ -1,0 +1,171 @@
+# ============================================================
+# Python cache / build files
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# ============================================================
+# Python tooling cache
+# ============================================================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# ============================================================
+# Jupyter Notebook checkpoints
+# ============================================================
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================================
+# IDE / editor / OS files
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Large data folders
+# ============================================================
+
+data/raw/
+data/processed/
+data/synthetic_subjects/
+data/external/
+data/interim/
+
+# Keep empty folder structure if .gitkeep exists
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic_subjects/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+
+# ============================================================
+# Model checkpoints / trained weights
+# ============================================================
+
+models/checkpoints/
+models/generators/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Keep model folder structure
+!models/.gitkeep
+!models/checkpoints/.gitkeep
+!models/generators/.gitkeep
+
+# ============================================================
+# Heavy arrays / binary experiment artifacts
+# ============================================================
+
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# ============================================================
+# Logs and temporary files
+# ============================================================
+
+logs/
+*.log
+*.tmp
+*.bak
+
+# Keep logs folder structure if needed
+!logs/.gitkeep
+
+# ============================================================
+# Compressed files
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================
+# DO NOT ignore these important project outputs
+# ============================================================
+
+!configs/
+!configs/*.json
+!configs/*.yaml
+!configs/*.yml
+
+!results/
+!results/**/*.csv
+!results/**/*.json
+!results/**/*.md
+
+!figures/
+!figures/**/*.png
+!figures/**/*.jpg
+!figures/**/*.jpeg
+!figures/**/*.pdf
+!figures/**/*.svg
+
+!plots/
+!plots/**/*.png
+!plots/**/*.jpg
+!plots/**/*.jpeg
+!plots/**/*.pdf
+!plots/**/*.svg
+
+!discussion/
+!discussion/**/*.md
+
+!notebooks/
+!notebooks/**/*.ipynb
+
+!README.md
+!requirements.txt
+!environment.yml
+!pyproject.toml
+!setup.cfg

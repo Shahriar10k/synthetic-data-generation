@@ -1,0 +1,76 @@
+{
+  "num_windows": 46925,
+  "X_acc_shape": [
+    46925,
+    256,
+    3
+  ],
+  "X_bvp_shape": [
+    46925,
+    512,
+    1
+  ],
+  "X_slow_shape": [
+    46925,
+    32,
+    2
+  ],
+  "y_shape": [
+    46925
+  ],
+  "subject_shape": [
+    46925
+  ],
+  "label_counts": {
+    "1": 4538,
+    "2": 3206,
+    "3": 2279,
+    "4": 3442,
+    "5": 6809,
+    "6": 13520,
+    "7": 4663,
+    "8": 8468
+  },
+  "subject_counts": {
+    "S1": 3445,
+    "S10": 3532,
+    "S11": 3490,
+    "S12": 2944,
+    "S13": 3356,
+    "S14": 3177,
+    "S15": 2923,
+    "S2": 2823,
+    "S3": 3344,
+    "S4": 3295,
+    "S5": 3345,
+    "S6": 1463,
+    "S7": 3553,
+    "S8": 2978,
+    "S9": 3257
+  },
+  "clean_processed_folder": "/home/iailab42/khans1/projects/ir/data/processed/native_rates",
+  "normalization": "global normalization for compatibility with group preprocessing",
+  "shared_split_protocol": {
+    "train_subjects": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S9",
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "val_subjects": [
+      "S14",
+      "S15"
+    ],
+    "test_subjects": [
+      "S7",
+      "S8",
+      "S10"
+    ]
+  }
+}

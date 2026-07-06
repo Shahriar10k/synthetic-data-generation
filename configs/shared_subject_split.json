@@ -1,0 +1,24 @@
+{
+  "description": "Shared subject split protocol used by KoVAE, GAN, Diffusion, and downstream evaluation.",
+  "train_subjects": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S9",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "val_subjects": [
+    "S14",
+    "S15"
+  ],
+  "test_subjects": [
+    "S7",
+    "S8",
+    "S10"
+  ]
+}
