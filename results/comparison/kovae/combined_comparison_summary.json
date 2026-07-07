@@ -1,0 +1,21 @@
+{
+  "model_family": "kovae",
+  "methods_to_compare": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "method_display_names": {
+    "rollout_v1": "KoVAE-Rollout",
+    "posterior_bank_v2": "KoVAE-Posterior"
+  },
+  "synthetic_plot_order_mode": "activity_blocks",
+  "synthetic_reconstruction_mode": "window_based",
+  "figures_model_dir": "/home/iailab42/khans1/projects/ir/figures/comparison/kovae",
+  "results_model_dir": "/home/iailab42/khans1/projects/ir/results/comparison/kovae",
+  "combined_summary_csv": "/home/iailab42/khans1/projects/ir/results/comparison/kovae/combined_comparison_plot_summary.csv",
+  "num_plot_rows": 12,
+  "foldering_note": {
+    "kovae": "figures/comparison/kovae/<method>/ and results/comparison/kovae/<method>/",
+    "future_timevae": "figures/comparison/timevae/<method>/ and results/comparison/timevae/<method>/"
+  }
+}

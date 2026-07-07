@@ -1,0 +1,41 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "model_family": "kovae",
+  "real_dir": "data/processed/native_rates",
+  "synthetic_base_dir": "data/synthetic_subjects/kovae",
+  "figures_base_dir": "figures/comparison",
+  "results_base_dir": "results/comparison",
+  "methods_to_compare": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "method_display_names": {
+    "rollout_v1": "KoVAE-Rollout",
+    "posterior_bank_v2": "KoVAE-Posterior"
+  },
+  "real_subjects_to_compare": [
+    "S1"
+  ],
+  "synthetic_subject_selection": "first_n",
+  "num_synthetic_subjects_to_compare": 1,
+  "specific_synthetic_subjects": [],
+  "pairing_mode": "same_index",
+  "synthetic_plot_order_mode": "activity_blocks",
+  "synthetic_reconstruction_mode": "window_based",
+  "weight_mode": "hann",
+  "match_duration_for_three_way": false,
+  "comparison_duration_sec": null,
+  "comparison_start_sec": 0.0,
+  "plot_step": 1,
+  "use_common_y_axis": true,
+  "use_robust_y_axis": false,
+  "robust_y_percentiles": [
+    0.5,
+    99.5
+  ],
+  "show_activity_background": true,
+  "save_plot": true,
+  "save_individual_plots": false,
+  "save_three_way_plots": true,
+  "save_continuous_arrays": false
+}

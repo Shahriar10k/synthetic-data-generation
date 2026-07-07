@@ -1,0 +1,20 @@
+{
+  "model_family": "kovae",
+  "method": "rollout_v1",
+  "method_display_name": "KoVAE-Rollout",
+  "synthetic_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+  "figures_dir": "/home/iailab42/khans1/projects/ir/figures/comparison/kovae/rollout_v1",
+  "results_dir": "/home/iailab42/khans1/projects/ir/results/comparison/kovae/rollout_v1",
+  "selected_real_subjects": [
+    "S1"
+  ],
+  "selected_synthetic_subjects": [
+    "synthetic_subject_01"
+  ],
+  "pairing_mode": "same_index",
+  "synthetic_plot_order_mode": "activity_blocks",
+  "synthetic_reconstruction_mode": "window_based",
+  "uses_friend_style_three_way_comparison": true,
+  "num_summary_rows": 6,
+  "summary_csv": "/home/iailab42/khans1/projects/ir/results/comparison/kovae/rollout_v1/summaries/comparison_plot_summary.csv"
+}

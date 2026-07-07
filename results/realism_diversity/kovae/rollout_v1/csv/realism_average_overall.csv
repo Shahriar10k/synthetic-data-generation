@@ -1,0 +1,2 @@
+method,method_display_name,abs_mean_diff_lower_is_better,abs_std_diff_lower_is_better,histogram_overlap_0_to_1_higher_is_better,fft_logmag_mae_lower_is_better
+rollout_v1,KoVAE-Rollout,0.35177868584823363,0.6546649338635212,0.27520076497395835,0.47516226445096016

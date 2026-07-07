@@ -1,0 +1,57 @@
+{
+  "model_family": "kovae",
+  "methods_evaluated": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "method_display_names": {
+    "rollout_v1": "KoVAE-Rollout",
+    "posterior_bank_v2": "KoVAE-Posterior"
+  },
+  "realism_reference_split": "train",
+  "signals": [
+    "ACC_x",
+    "ACC_y",
+    "ACC_z",
+    "BVP",
+    "EDA",
+    "TEMP"
+  ],
+  "activity_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "results_model_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae",
+  "figures_model_dir": "/home/iailab42/khans1/projects/ir/figures/realism_diversity/kovae",
+  "combined_outputs": {
+    "combined_realism_by_activity_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_realism_by_activity_signal.csv",
+    "combined_realism_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_realism_average_by_signal.csv",
+    "combined_realism_average_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_realism_average_overall.csv",
+    "combined_copy_diversity_by_activity_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_copy_diversity_by_activity_signal.csv",
+    "combined_copy_diversity_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_copy_diversity_average_by_signal.csv",
+    "combined_copy_diversity_average_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_copy_diversity_average_overall.csv",
+    "combined_method_comparison_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/combined_method_comparison_overall.csv"
+  },
+  "combined_figures_dir": "/home/iailab42/khans1/projects/ir/figures/realism_diversity/kovae/combined",
+  "important_metrics": {
+    "realism": [
+      "abs_mean_diff_lower_is_better",
+      "abs_std_diff_lower_is_better",
+      "histogram_overlap_0_to_1_higher_is_better",
+      "fft_logmag_mae_lower_is_better"
+    ],
+    "no_copying": [
+      "copy_ratio_mean",
+      "near_duplicate_rate_p01_lower_is_better"
+    ],
+    "diversity": [
+      "synthetic_diversity_ratio_mean"
+    ]
+  }
+}

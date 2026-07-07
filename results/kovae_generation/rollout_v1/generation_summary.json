@@ -1,0 +1,64 @@
+{
+  "method": "rollout_v1",
+  "num_generated_windows": 30000,
+  "num_synthetic_subjects": 10,
+  "windows_per_subject": 3000,
+  "X_acc_shape": [
+    30000,
+    256,
+    3
+  ],
+  "X_bvp_shape": [
+    30000,
+    512,
+    1
+  ],
+  "X_slow_shape": [
+    30000,
+    32,
+    2
+  ],
+  "activity_counts_original_labels": {
+    "1": 2900,
+    "2": 2051,
+    "3": 1397,
+    "4": 2190,
+    "5": 4616,
+    "6": 8628,
+    "7": 2756,
+    "8": 5462
+  },
+  "subject_counts": {
+    "synthetic_subject_01": 3000,
+    "synthetic_subject_02": 3000,
+    "synthetic_subject_03": 3000,
+    "synthetic_subject_04": 3000,
+    "synthetic_subject_05": 3000,
+    "synthetic_subject_06": 3000,
+    "synthetic_subject_07": 3000,
+    "synthetic_subject_08": 3000,
+    "synthetic_subject_09": 3000,
+    "synthetic_subject_10": 3000
+  },
+  "activity_sampling_mode": "train_distribution",
+  "synthetic_subject_condition_mode": "sample_train_subject",
+  "subject_condition_map": {
+    "synthetic_subject_01": "S11",
+    "synthetic_subject_02": "S3",
+    "synthetic_subject_03": "S11",
+    "synthetic_subject_04": "S5",
+    "synthetic_subject_05": "S4",
+    "synthetic_subject_06": "S11",
+    "synthetic_subject_07": "S3",
+    "synthetic_subject_08": "S13",
+    "synthetic_subject_09": "S13",
+    "synthetic_subject_10": "S12"
+  },
+  "target_spectral_radius": 0.98,
+  "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+  "uses_quality_filter": false,
+  "generation_parameters": {
+    "rollout_z0_noise_scale": 0.05,
+    "rollout_latent_noise_scale": 0.03
+  }
+}

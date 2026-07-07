@@ -1,0 +1,33 @@
+{
+  "model_family": "kovae",
+  "method": "rollout_v1",
+  "method_display_name": "KoVAE-Rollout",
+  "synthetic_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+  "results_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/rollout_v1",
+  "figures_dir": "/home/iailab42/khans1/projects/ir/figures/realism_diversity/kovae/rollout_v1",
+  "csv_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity/kovae/rollout_v1/csv",
+  "realism_reference_split": "train",
+  "max_real_windows_per_activity": 1000,
+  "max_syn_windows_per_activity": 1000,
+  "distance_batch_size": 256,
+  "signals": [
+    "ACC_x",
+    "ACC_y",
+    "ACC_z",
+    "BVP",
+    "EDA",
+    "TEMP"
+  ],
+  "activity_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "num_realism_rows": 48,
+  "num_copy_diversity_rows": 48
+}

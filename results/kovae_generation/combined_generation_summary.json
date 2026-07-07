@@ -1,0 +1,143 @@
+{
+  "methods_run": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "checkpoint": "/home/iailab42/khans1/projects/ir/models/checkpoints/kovae_best.pt",
+  "synthetic_base": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae",
+  "results_base": "/home/iailab42/khans1/projects/ir/results/kovae_generation",
+  "figures_base": "/home/iailab42/khans1/projects/ir/figures/kovae_generation",
+  "uses_activity_conditioned_koopman": true,
+  "uses_quality_filter": false,
+  "method_summaries": {
+    "rollout_v1": {
+      "method": "rollout_v1",
+      "num_generated_windows": 30000,
+      "num_synthetic_subjects": 10,
+      "windows_per_subject": 3000,
+      "X_acc_shape": [
+        30000,
+        256,
+        3
+      ],
+      "X_bvp_shape": [
+        30000,
+        512,
+        1
+      ],
+      "X_slow_shape": [
+        30000,
+        32,
+        2
+      ],
+      "activity_counts_original_labels": {
+        "1": 2900,
+        "2": 2051,
+        "3": 1397,
+        "4": 2190,
+        "5": 4616,
+        "6": 8628,
+        "7": 2756,
+        "8": 5462
+      },
+      "subject_counts": {
+        "synthetic_subject_01": 3000,
+        "synthetic_subject_02": 3000,
+        "synthetic_subject_03": 3000,
+        "synthetic_subject_04": 3000,
+        "synthetic_subject_05": 3000,
+        "synthetic_subject_06": 3000,
+        "synthetic_subject_07": 3000,
+        "synthetic_subject_08": 3000,
+        "synthetic_subject_09": 3000,
+        "synthetic_subject_10": 3000
+      },
+      "activity_sampling_mode": "train_distribution",
+      "synthetic_subject_condition_mode": "sample_train_subject",
+      "subject_condition_map": {
+        "synthetic_subject_01": "S11",
+        "synthetic_subject_02": "S3",
+        "synthetic_subject_03": "S11",
+        "synthetic_subject_04": "S5",
+        "synthetic_subject_05": "S4",
+        "synthetic_subject_06": "S11",
+        "synthetic_subject_07": "S3",
+        "synthetic_subject_08": "S13",
+        "synthetic_subject_09": "S13",
+        "synthetic_subject_10": "S12"
+      },
+      "target_spectral_radius": 0.98,
+      "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
+      "uses_quality_filter": false,
+      "generation_parameters": {
+        "rollout_z0_noise_scale": 0.05,
+        "rollout_latent_noise_scale": 0.03
+      }
+    },
+    "posterior_bank_v2": {
+      "method": "posterior_bank_v2",
+      "num_generated_windows": 30000,
+      "num_synthetic_subjects": 10,
+      "windows_per_subject": 3000,
+      "X_acc_shape": [
+        30000,
+        256,
+        3
+      ],
+      "X_bvp_shape": [
+        30000,
+        512,
+        1
+      ],
+      "X_slow_shape": [
+        30000,
+        32,
+        2
+      ],
+      "activity_counts_original_labels": {
+        "1": 2951,
+        "2": 2108,
+        "3": 1443,
+        "4": 2204,
+        "5": 4400,
+        "6": 8778,
+        "7": 2779,
+        "8": 5337
+      },
+      "subject_counts": {
+        "synthetic_subject_01": 3000,
+        "synthetic_subject_02": 3000,
+        "synthetic_subject_03": 3000,
+        "synthetic_subject_04": 3000,
+        "synthetic_subject_05": 3000,
+        "synthetic_subject_06": 3000,
+        "synthetic_subject_07": 3000,
+        "synthetic_subject_08": 3000,
+        "synthetic_subject_09": 3000,
+        "synthetic_subject_10": 3000
+      },
+      "activity_sampling_mode": "train_distribution",
+      "synthetic_subject_condition_mode": "sample_train_subject",
+      "subject_condition_map": {
+        "synthetic_subject_01": "S2",
+        "synthetic_subject_02": "S2",
+        "synthetic_subject_03": "S6",
+        "synthetic_subject_04": "S11",
+        "synthetic_subject_05": "S2",
+        "synthetic_subject_06": "S11",
+        "synthetic_subject_07": "S11",
+        "synthetic_subject_08": "S1",
+        "synthetic_subject_09": "S12",
+        "synthetic_subject_10": "S13"
+      },
+      "target_spectral_radius": 0.98,
+      "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/posterior_bank_v2",
+      "uses_quality_filter": false,
+      "generation_parameters": {
+        "posterior_noise_scale": 0.04,
+        "posterior_interpolation_prob": 0.5,
+        "posterior_koopman_blend_weight": 0.1
+      }
+    }
+  }
+}
