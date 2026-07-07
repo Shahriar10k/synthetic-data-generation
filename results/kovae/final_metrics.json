@@ -1,8 +1,9 @@
 {
-  "best_epoch": 78,
-  "best_val_total_loss": 0.05084163339411626,
-  "total_parameters": 347446,
-  "trainable_parameters": 347446,
+  "best_epoch": 52,
+  "best_val_total_loss": 0.06505395084985945,
+  "best_val_activity_accuracy": 1.0,
+  "total_parameters": 358334,
+  "trainable_parameters": 358334,
   "num_train_windows": 30762,
   "num_val_windows": 6100,
   "num_test_windows_reserved": 10063,

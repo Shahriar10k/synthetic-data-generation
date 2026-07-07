@@ -1,6 +1,7 @@
 {
   "project_root": "/home/iailab42/khans1/projects/ir",
   "processed_subdir": "data/processed/native_rates",
+  "experiment_name": "kovae",
   "random_seed": 42,
   "train_subjects": [
     "S1",
@@ -40,6 +41,10 @@
   "use_subject_condition": true,
   "subject_embedding_dim": 16,
   "subject_dropout_prob": 0.2,
+  "activity_classifier_weight": 0.2,
+  "use_activity_conditioned_koopman": true,
+  "activity_koopman_noise_std": 0.01,
+  "activity_koopman_identity_regularization": 1e-05,
   "dropout": 0.1,
   "batch_size": 64,
   "num_workers": 0,

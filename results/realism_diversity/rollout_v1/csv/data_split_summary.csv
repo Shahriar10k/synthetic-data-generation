@@ -1,5 +1,0 @@
-method,split,num_windows,num_subjects,subjects,activity_1_windows,activity_2_windows,activity_3_windows,activity_4_windows,activity_5_windows,activity_6_windows,activity_7_windows,activity_8_windows
-rollout_v1,real_train,30762,10,"S1,S2,S3,S4,S5,S6,S9,S11,S12,S13",3032,2139,1500,2296,4580,8792,2903,5520
-rollout_v1,real_val,6100,2,"S14,S15",605,432,335,449,866,1581,632,1200
-rollout_v1,real_test,10063,3,"S7,S8,S10",901,635,444,697,1363,3147,1128,1748
-rollout_v1,synthetic,30000,10,"KOVAE_SYN_rollout_v1_001,KOVAE_SYN_rollout_v1_002,KOVAE_SYN_rollout_v1_003,KOVAE_SYN_rollout_v1_004,KOVAE_SYN_rollout_v1_005,KOVAE_SYN_rollout_v1_006,KOVAE_SYN_rollout_v1_007,KOVAE_SYN_rollout_v1_008,KOVAE_SYN_rollout_v1_009,KOVAE_SYN_rollout_v1_010",2946,2101,1488,2280,4519,8562,2803,5301
