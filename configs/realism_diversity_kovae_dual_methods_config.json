@@ -1,0 +1,18 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "real_dir": "data/processed/native_rates",
+  "synthetic_base_dir": "data/synthetic_subjects/kovae",
+  "methods_to_evaluate": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "results_base_dir": "results/realism_diversity",
+  "figures_base_dir": "figures/realism_diversity",
+  "random_seed": 42,
+  "realism_reference_split": "train",
+  "histogram_bins": 80,
+  "max_real_train_windows_per_activity": 1000,
+  "max_syn_windows_per_activity": 1000,
+  "distance_batch_size": 256,
+  "save_summary_plots": true
+}

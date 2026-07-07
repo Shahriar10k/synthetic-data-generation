@@ -1,0 +1,19 @@
+{
+  "method": "posterior_bank_v2",
+  "synthetic_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/posterior_bank_v2",
+  "results_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2",
+  "csv_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv",
+  "figures_dir": "/home/iailab42/khans1/projects/ir/figures/realism_diversity/posterior_bank_v2",
+  "num_synthetic_windows": 30000,
+  "num_synthetic_subjects": 10,
+  "realism_reference_split": "real_train",
+  "csv_outputs": {
+    "realism_by_activity_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/realism_by_activity_signal.csv",
+    "realism_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/realism_average_by_signal.csv",
+    "realism_average_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/realism_average_overall.csv",
+    "copy_diversity_by_activity_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/copy_diversity_by_activity_signal.csv",
+    "copy_diversity_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/copy_diversity_average_by_signal.csv",
+    "copy_diversity_average_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/copy_diversity_average_overall.csv",
+    "data_split_summary": "/home/iailab42/khans1/projects/ir/results/realism_diversity/posterior_bank_v2/csv/data_split_summary.csv"
+  }
+}

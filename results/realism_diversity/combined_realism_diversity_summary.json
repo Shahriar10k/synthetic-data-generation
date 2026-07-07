@@ -1,0 +1,15 @@
+{
+  "methods_evaluated": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "real_dir": "/home/iailab42/khans1/projects/ir/data/processed/native_rates",
+  "synthetic_base_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae",
+  "results_base_dir": "/home/iailab42/khans1/projects/ir/results/realism_diversity",
+  "figures_base_dir": "/home/iailab42/khans1/projects/ir/figures/realism_diversity",
+  "important_combined_outputs": {
+    "combined_method_comparison_overall": "/home/iailab42/khans1/projects/ir/results/realism_diversity/combined_method_comparison_overall.csv",
+    "combined_realism_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/combined_realism_average_by_signal.csv",
+    "combined_copy_diversity_average_by_signal": "/home/iailab42/khans1/projects/ir/results/realism_diversity/combined_copy_diversity_average_by_signal.csv"
+  }
+}
