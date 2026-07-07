@@ -20,51 +20,51 @@
   "method_summaries": {
     "rollout_v1": {
       "generation_method": "rollout_v1",
-      "num_generated_windows": 5000,
+      "num_generated_windows": 30000,
       "num_synthetic_subjects": 10,
-      "windows_per_subject": 500,
+      "windows_per_subject": 3000,
       "X_bvp_shape": [
-        5000,
+        30000,
         512,
         1
       ],
       "X_acc_shape": [
-        5000,
+        30000,
         256,
         3
       ],
       "X_slow_shape": [
-        5000,
+        30000,
         32,
         2
       ],
       "y_shape": [
-        5000
+        30000
       ],
       "subject_shape": [
-        5000
+        30000
       ],
       "activity_counts": {
-        "1": 490,
-        "2": 334,
-        "3": 232,
-        "4": 377,
-        "5": 745,
-        "6": 1431,
-        "7": 489,
-        "8": 902
+        "1": 2946,
+        "2": 2101,
+        "3": 1488,
+        "4": 2280,
+        "5": 4519,
+        "6": 8562,
+        "7": 2803,
+        "8": 5301
       },
       "subject_counts": {
-        "KOVAE_SYN_rollout_v1_001": 500,
-        "KOVAE_SYN_rollout_v1_002": 500,
-        "KOVAE_SYN_rollout_v1_003": 500,
-        "KOVAE_SYN_rollout_v1_004": 500,
-        "KOVAE_SYN_rollout_v1_005": 500,
-        "KOVAE_SYN_rollout_v1_006": 500,
-        "KOVAE_SYN_rollout_v1_007": 500,
-        "KOVAE_SYN_rollout_v1_008": 500,
-        "KOVAE_SYN_rollout_v1_009": 500,
-        "KOVAE_SYN_rollout_v1_010": 500
+        "KOVAE_SYN_rollout_v1_001": 3000,
+        "KOVAE_SYN_rollout_v1_002": 3000,
+        "KOVAE_SYN_rollout_v1_003": 3000,
+        "KOVAE_SYN_rollout_v1_004": 3000,
+        "KOVAE_SYN_rollout_v1_005": 3000,
+        "KOVAE_SYN_rollout_v1_006": 3000,
+        "KOVAE_SYN_rollout_v1_007": 3000,
+        "KOVAE_SYN_rollout_v1_008": 3000,
+        "KOVAE_SYN_rollout_v1_009": 3000,
+        "KOVAE_SYN_rollout_v1_010": 3000
       },
       "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/rollout_v1",
       "results_folder": "/home/iailab42/khans1/projects/ir/results/kovae_generation/rollout_v1",
@@ -74,51 +74,51 @@
     },
     "posterior_bank_v2": {
       "generation_method": "posterior_bank_v2",
-      "num_generated_windows": 5000,
+      "num_generated_windows": 30000,
       "num_synthetic_subjects": 10,
-      "windows_per_subject": 500,
+      "windows_per_subject": 3000,
       "X_bvp_shape": [
-        5000,
+        30000,
         512,
         1
       ],
       "X_acc_shape": [
-        5000,
+        30000,
         256,
         3
       ],
       "X_slow_shape": [
-        5000,
+        30000,
         32,
         2
       ],
       "y_shape": [
-        5000
+        30000
       ],
       "subject_shape": [
-        5000
+        30000
       ],
       "activity_counts": {
-        "1": 475,
-        "2": 382,
-        "3": 218,
-        "4": 377,
-        "5": 755,
-        "6": 1469,
-        "7": 478,
-        "8": 846
+        "1": 2886,
+        "2": 2104,
+        "3": 1461,
+        "4": 2286,
+        "5": 4404,
+        "6": 8592,
+        "7": 2844,
+        "8": 5423
       },
       "subject_counts": {
-        "KOVAE_SYN_posterior_bank_v2_001": 500,
-        "KOVAE_SYN_posterior_bank_v2_002": 500,
-        "KOVAE_SYN_posterior_bank_v2_003": 500,
-        "KOVAE_SYN_posterior_bank_v2_004": 500,
-        "KOVAE_SYN_posterior_bank_v2_005": 500,
-        "KOVAE_SYN_posterior_bank_v2_006": 500,
-        "KOVAE_SYN_posterior_bank_v2_007": 500,
-        "KOVAE_SYN_posterior_bank_v2_008": 500,
-        "KOVAE_SYN_posterior_bank_v2_009": 500,
-        "KOVAE_SYN_posterior_bank_v2_010": 500
+        "KOVAE_SYN_posterior_bank_v2_001": 3000,
+        "KOVAE_SYN_posterior_bank_v2_002": 3000,
+        "KOVAE_SYN_posterior_bank_v2_003": 3000,
+        "KOVAE_SYN_posterior_bank_v2_004": 3000,
+        "KOVAE_SYN_posterior_bank_v2_005": 3000,
+        "KOVAE_SYN_posterior_bank_v2_006": 3000,
+        "KOVAE_SYN_posterior_bank_v2_007": 3000,
+        "KOVAE_SYN_posterior_bank_v2_008": 3000,
+        "KOVAE_SYN_posterior_bank_v2_009": 3000,
+        "KOVAE_SYN_posterior_bank_v2_010": 3000
       },
       "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/posterior_bank_v2",
       "results_folder": "/home/iailab42/khans1/projects/ir/results/kovae_generation/posterior_bank_v2",

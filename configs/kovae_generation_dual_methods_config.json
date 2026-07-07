@@ -9,7 +9,7 @@
     "posterior_bank_v2"
   ],
   "num_synthetic_subjects": 10,
-  "windows_per_subject": 500,
+  "windows_per_subject": 3000,
   "generation_batch_size": 128,
   "synthetic_subject_prefix": "KOVAE_SYN",
   "activity_sampling_strategy": "train_distribution",

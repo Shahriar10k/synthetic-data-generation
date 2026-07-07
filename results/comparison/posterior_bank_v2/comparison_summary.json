@@ -1,0 +1,239 @@
+{
+  "method_name": "posterior_bank_v2",
+  "real_subject_to_plot": "S1",
+  "synthetic_subject_to_plot": "KOVAE_SYN_posterior_bank_v2_001",
+  "real_dir": "/home/iailab42/khans1/projects/ir/data/processed/native_rates",
+  "synthetic_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/kovae/posterior_bank_v2",
+  "figures_dir": "/home/iailab42/khans1/projects/ir/figures/comparison/posterior_bank_v2",
+  "results_dir": "/home/iailab42/khans1/projects/ir/results/comparison/posterior_bank_v2",
+  "branch_summaries": {
+    "ACC": {
+      "real_spaced": {
+        "windows_shape": [
+          3445,
+          256,
+          3
+        ],
+        "continuous_shape": [
+          284480,
+          3
+        ],
+        "duration_sec": 8890.0,
+        "duration_min": 148.16666666666666,
+        "duration_hours": 2.4694444444444446,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "real_stitched": {
+        "windows_shape": [
+          3445,
+          256,
+          3
+        ],
+        "continuous_shape": [
+          220672,
+          3
+        ],
+        "duration_sec": 6896.0,
+        "duration_min": 114.93333333333334,
+        "duration_hours": 1.9155555555555555,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "synthetic": {
+        "windows_shape": [
+          3000,
+          256,
+          3
+        ],
+        "continuous_shape": [
+          192192,
+          3
+        ],
+        "duration_sec": 6006.0,
+        "duration_min": 100.1,
+        "duration_hours": 1.6683333333333332,
+        "label_counts": {
+          "1": 288,
+          "2": 202,
+          "3": 144,
+          "4": 241,
+          "5": 417,
+          "6": 887,
+          "7": 292,
+          "8": 529
+        }
+      },
+      "comparison_crop_duration_sec": 6006.0,
+      "comparison_crop_start_sec": 0.0
+    },
+    "BVP": {
+      "real_spaced": {
+        "windows_shape": [
+          3445,
+          512,
+          1
+        ],
+        "continuous_shape": [
+          568960,
+          1
+        ],
+        "duration_sec": 8890.0,
+        "duration_min": 148.16666666666666,
+        "duration_hours": 2.4694444444444446,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "real_stitched": {
+        "windows_shape": [
+          3445,
+          512,
+          1
+        ],
+        "continuous_shape": [
+          441344,
+          1
+        ],
+        "duration_sec": 6896.0,
+        "duration_min": 114.93333333333334,
+        "duration_hours": 1.9155555555555555,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "synthetic": {
+        "windows_shape": [
+          3000,
+          512,
+          1
+        ],
+        "continuous_shape": [
+          384384,
+          1
+        ],
+        "duration_sec": 6006.0,
+        "duration_min": 100.1,
+        "duration_hours": 1.6683333333333332,
+        "label_counts": {
+          "1": 288,
+          "2": 202,
+          "3": 144,
+          "4": 241,
+          "5": 417,
+          "6": 887,
+          "7": 292,
+          "8": 529
+        }
+      },
+      "comparison_crop_duration_sec": 6006.0,
+      "comparison_crop_start_sec": 0.0
+    },
+    "SLOW": {
+      "real_spaced": {
+        "windows_shape": [
+          3445,
+          32,
+          2
+        ],
+        "continuous_shape": [
+          35560,
+          2
+        ],
+        "duration_sec": 8890.0,
+        "duration_min": 148.16666666666666,
+        "duration_hours": 2.4694444444444446,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "real_stitched": {
+        "windows_shape": [
+          3445,
+          32,
+          2
+        ],
+        "continuous_shape": [
+          27584,
+          2
+        ],
+        "duration_sec": 6896.0,
+        "duration_min": 114.93333333333334,
+        "duration_hours": 1.9155555555555555,
+        "label_counts": {
+          "1": 347,
+          "2": 141,
+          "3": 170,
+          "4": 203,
+          "5": 442,
+          "6": 1175,
+          "7": 375,
+          "8": 592
+        }
+      },
+      "synthetic": {
+        "windows_shape": [
+          3000,
+          32,
+          2
+        ],
+        "continuous_shape": [
+          24024,
+          2
+        ],
+        "duration_sec": 6006.0,
+        "duration_min": 100.1,
+        "duration_hours": 1.6683333333333332,
+        "label_counts": {
+          "1": 288,
+          "2": 202,
+          "3": 144,
+          "4": 241,
+          "5": 417,
+          "6": 887,
+          "7": 292,
+          "8": 529
+        }
+      },
+      "comparison_crop_duration_sec": 6006.0,
+      "comparison_crop_start_sec": 0.0
+    }
+  }
+}

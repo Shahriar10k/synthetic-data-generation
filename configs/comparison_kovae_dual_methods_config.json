@@ -1,0 +1,23 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "real_dir": "data/processed/native_rates",
+  "synthetic_base_dir": "data/synthetic_subjects/kovae",
+  "methods_to_compare": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "figures_base_dir": "figures/comparison",
+  "results_base_dir": "results/comparison",
+  "real_subject_to_plot": "S1",
+  "synthetic_subject_to_plot_by_method": {
+    "rollout_v1": null,
+    "posterior_bank_v2": null
+  },
+  "weight_mode": "hann",
+  "plot_step": 1,
+  "match_duration_to_synthetic": true,
+  "crop_duration_sec": null,
+  "crop_start_sec": 0.0,
+  "save_plot": true,
+  "save_continuous_arrays": true
+}
