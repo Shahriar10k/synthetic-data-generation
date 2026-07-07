@@ -1,0 +1,9 @@
+framework,model,experiment,synthetic_method,modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",1,0.46331236897274636,0.8225806451612904,0.5927581582476531,806,663,806,0.8225806451612904
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",2,0.8998302207130731,0.8346456692913385,0.8660130718954249,635,530,635,0.8346456692913385
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",3,0.44519774011299434,0.8873873873873874,0.5929270127915726,444,394,444,0.8873873873873874
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",4,0.900516795865633,1.0,0.947654656696125,697,697,697,1.0
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",5,0.6829558998808105,0.8414096916299559,0.7539473684210526,1362,1146,1362,0.8414096916299559
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",6,0.6354587869362364,0.6527156549520767,0.6439716312056738,3130,2043,3130,0.6527156549520767
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",7,0.7182628062360802,0.5738434163701067,0.6379821958456974,1124,645,1124,0.5738434163701067
+aeon,MiniRocketClassifier,synthetic_to_real__posterior_bank_v2,posterior_bank_v2,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",8,0.7435897435897436,0.2,0.31521739130434784,1740,348,1740,0.2

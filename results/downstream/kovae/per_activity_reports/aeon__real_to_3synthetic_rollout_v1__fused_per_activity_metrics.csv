@@ -1,0 +1,9 @@
+framework,model,experiment,synthetic_method,modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",1,0.0,0.0,0.0,898,0,898,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",2,0.0,0.0,0.0,589,0,589,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",3,0.0,0.0,0.0,417,0,417,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",4,0.0,0.0,0.0,677,0,677,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",5,0.6008064516129032,0.10368823938761308,0.1768545994065282,1437,149,1437,0.10368823938761308
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",6,0.2836895645216596,0.997588424437299,0.44175491679273826,2488,2482,2488,0.997588424437299
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",7,0.0,0.0,0.0,862,0,862,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__rollout_v1,rollout_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",8,0.0,0.0,0.0,1632,0,1632,0.0
