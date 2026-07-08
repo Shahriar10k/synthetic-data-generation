@@ -1,0 +1,2 @@
+method,method_display_name,abs_mean_diff_lower_is_better,abs_std_diff_lower_is_better,histogram_overlap_0_to_1_higher_is_better,fft_logmag_mae_lower_is_better
+prior_v1,TimeVAE-Prior,0.17346622642189377,0.22355617982266637,0.6980218098958333,0.5098830596640014

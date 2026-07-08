@@ -1,0 +1,19 @@
+{
+  "model_family": "timevae",
+  "methods_to_compare": [
+    "prior_v1"
+  ],
+  "method_display_names": {
+    "prior_v1": "TimeVAE-Prior"
+  },
+  "synthetic_plot_order_mode": "activity_blocks",
+  "synthetic_reconstruction_mode": "window_based",
+  "figures_model_dir": "/home/iailab42/khans1/projects/ir/figures/comparison/timevae",
+  "results_model_dir": "/home/iailab42/khans1/projects/ir/results/comparison/timevae",
+  "combined_summary_csv": "/home/iailab42/khans1/projects/ir/results/comparison/timevae/combined_comparison_plot_summary.csv",
+  "num_plot_rows": 6,
+  "foldering_note": {
+    "kovae": "figures/comparison/kovae/<method>/ and results/comparison/kovae/<method>/",
+    "future_timevae": "figures/comparison/timevae/<method>/ and results/comparison/timevae/<method>/"
+  }
+}

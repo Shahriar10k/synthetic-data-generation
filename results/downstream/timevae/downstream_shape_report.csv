@@ -1,0 +1,5 @@
+experiment,synthetic_method,modality,train_shape_native_N_T_C,val_shape_native_N_T_C,test_shape_native_N_T_C,train_windows,val_windows,test_windows
+real_to_real,none,fused,"[30762, 512, 6]","[6100, 512, 6]","[10063, 512, 6]",30762,6100,10063
+synthetic_to_real__prior_v1,prior_v1,fused,"[30000, 512, 6]","[6100, 512, 6]","[10063, 512, 6]",30000,6100,10063
+real_plus_synthetic_to_real__prior_v1,prior_v1,fused,"[60762, 512, 6]","[6100, 512, 6]","[10063, 512, 6]",60762,6100,10063
+real_to_3synthetic__prior_v1,prior_v1,fused,"[30762, 512, 6]","[6100, 512, 6]","[9000, 512, 6]",30762,6100,9000

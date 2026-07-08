@@ -1,0 +1,74 @@
+{
+  "model_family": "timevae",
+  "methods_run": [
+    "prior_v1"
+  ],
+  "method_display_names": {
+    "prior_v1": "TimeVAE-Prior"
+  },
+  "synthetic_base": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/timevae",
+  "results_base": "/home/iailab42/khans1/projects/ir/results/timevae_generation",
+  "figures_base": "/home/iailab42/khans1/projects/ir/figures/timevae_generation",
+  "method_summaries": {
+    "prior_v1": {
+      "model_family": "timevae",
+      "method": "prior_v1",
+      "method_display_name": "TimeVAE-Prior",
+      "checkpoint": "/home/iailab42/khans1/projects/ir/models/checkpoints/timevae_best.pt",
+      "internal_generation_shape": [
+        30000,
+        512,
+        6
+      ],
+      "num_generated_windows": 30000,
+      "num_synthetic_subjects": 10,
+      "windows_per_subject": 3000,
+      "X_acc_shape": [
+        30000,
+        256,
+        3
+      ],
+      "X_bvp_shape": [
+        30000,
+        512,
+        1
+      ],
+      "X_slow_shape": [
+        30000,
+        32,
+        2
+      ],
+      "activity_counts_original_labels": {
+        "1": 2901,
+        "2": 2137,
+        "3": 1427,
+        "4": 2268,
+        "5": 4457,
+        "6": 8587,
+        "7": 2864,
+        "8": 5359
+      },
+      "subject_counts": {
+        "synthetic_subject_01": 3000,
+        "synthetic_subject_02": 3000,
+        "synthetic_subject_03": 3000,
+        "synthetic_subject_04": 3000,
+        "synthetic_subject_05": 3000,
+        "synthetic_subject_06": 3000,
+        "synthetic_subject_07": 3000,
+        "synthetic_subject_08": 3000,
+        "synthetic_subject_09": 3000,
+        "synthetic_subject_10": 3000
+      },
+      "activity_sampling_mode": "train_distribution",
+      "uses_activity_conditioning": true,
+      "synthetic_output_folder": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/timevae/prior_v1",
+      "generation_parameters": {
+        "latent_sampling": "standard_normal_prior",
+        "internal_representation": "fused_512x6",
+        "converted_to_native_rate_outputs": true,
+        "clip_generated_to_train_range": false
+      }
+    }
+  }
+}

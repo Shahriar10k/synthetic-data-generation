@@ -1,2 +1,2 @@
 method,method_display_name,real_train_to_nearest_real_train_mse_mean,syn_to_nearest_train_real_mse_mean,syn_to_nearest_syn_mse_mean,copy_ratio_mean,near_duplicate_rate_p01_lower_is_better,synthetic_diversity_ratio_mean
-rollout_v1,KoVAE-Rollout,0.3033470064971701,0.05944868150279884,0.016284713542911656,44.55166673930899,0.030333333333333334,2.100053978543986
+rollout_v1,KoVAE-Rollout,0.30334700037987505,0.0594486819681418,0.016284713532077753,44.548743565057464,0.030333333333333334,2.099986329777003

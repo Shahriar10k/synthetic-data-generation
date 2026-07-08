@@ -1,0 +1,9 @@
+framework,model,experiment,synthetic_method,modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",1,0.0,0.0,0.0,865,0,865,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",2,0.30344827586206896,0.4624624624624625,0.36644854253420583,666,308,666,0.4624624624624625
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",3,0.46153846153846156,0.013157894736842105,0.0255863539445629,456,6,456,0.013157894736842105
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",4,0.0,0.0,0.0,685,0,685,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",5,0.4166666666666667,0.00370919881305638,0.007352941176470588,1348,5,1348,0.00370919881305638
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",6,0.3130106851037084,0.9715177526336325,0.4734740444951512,2563,2490,2563,0.9715177526336325
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",7,0.0,0.0,0.0,829,0,829,0.0
+aeon,MiniRocketClassifier,real_to_3synthetic__prior_v1,prior_v1,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",8,0.25,0.0006297229219143577,0.001256281407035176,1588,1,1588,0.0006297229219143577

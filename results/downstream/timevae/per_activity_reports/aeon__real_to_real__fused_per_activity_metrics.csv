@@ -1,0 +1,9 @@
+framework,model,experiment,synthetic_method,modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",1,0.5188743994509266,0.9379652605459057,0.6681396376491383,806,756,806,0.9379652605459057
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",2,0.8990066225165563,0.8551181102362204,0.8765133171912833,635,543,635,0.8551181102362204
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",3,0.49801849405548215,0.8490990990990991,0.6278101582014988,444,377,444,0.8490990990990991
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",4,1.0,0.96987087517934,0.9847050254916242,697,676,697,0.96987087517934
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",5,0.8957854406130268,0.8582966226138032,0.8766404199475065,1362,1169,1362,0.8582966226138032
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",6,0.6749049429657795,0.4536741214057508,0.5426060374474589,3130,1420,3130,0.4536741214057508
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",7,0.7673888255416191,0.5987544483985765,0.672663668165917,1124,673,1124,0.5987544483985765
+aeon,MiniRocketClassifier,real_to_real,none,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",8,0.5171455050973123,0.6413793103448275,0.5726013340174448,1740,1116,1740,0.6413793103448275

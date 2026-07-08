@@ -1,0 +1,44 @@
+{
+  "best_epoch": 56,
+  "best_val_total_loss": 0.34895979909623254,
+  "elapsed_seconds": 181.2100338935852,
+  "num_train_windows": 30762,
+  "num_val_windows": 6100,
+  "num_test_windows_reserved": 10063,
+  "total_parameters": 2195854,
+  "trainable_parameters": 2195854,
+  "architecture": "paperstyle_fused_activity_conditioned_timevae",
+  "internal_input_shape": [
+    "N",
+    512,
+    6
+  ],
+  "fused_channel_names": [
+    "ACC_x",
+    "ACC_y",
+    "ACC_z",
+    "BVP",
+    "EDA",
+    "TEMP"
+  ],
+  "output_native_shapes": {
+    "acc": [
+      "N",
+      256,
+      3
+    ],
+    "bvp": [
+      "N",
+      512,
+      1
+    ],
+    "slow": [
+      "N",
+      32,
+      2
+    ]
+  },
+  "latent_dim": 128,
+  "hidden_dim": 128,
+  "num_activities": 8
+}

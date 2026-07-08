@@ -1,0 +1,72 @@
+{
+  "project_root": "/home/iailab42/khans1/projects/ir",
+  "real_dir": "data/processed/native_rates",
+  "results_base_dir": "results/downstream",
+  "figures_base_dir": "figures/downstream",
+  "models_base_dir": "models/downstream",
+  "frameworks": [
+    "aeon"
+  ],
+  "modalities": [
+    "fused"
+  ],
+  "include_real_to_synthetic": true,
+  "synthetic_test_subject_selection": "first_n",
+  "num_synthetic_test_subjects": 3,
+  "specific_synthetic_test_subjects": [],
+  "train_subjects": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S9",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "val_subjects": [
+    "S14",
+    "S15"
+  ],
+  "test_subjects": [
+    "S7",
+    "S8",
+    "S10"
+  ],
+  "activity_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "fused_target_len": 512,
+  "max_train_windows_per_experiment": null,
+  "aeon_n_kernels": 5000,
+  "aeon_n_jobs": -1,
+  "aeon_fix_low_variation": true,
+  "aeon_low_variation_strategy": "drop_cases",
+  "aeon_min_std": 1e-06,
+  "aeon_ramp_scale": 0.001,
+  "tsai_arch": "InceptionTimePlus",
+  "tsai_epochs": 10,
+  "tsai_batch_size": 384,
+  "tsai_lr": 0.001,
+  "random_seed": 42,
+  "save_models": true,
+  "save_confusion_matrix_figures": true,
+  "show_confusion_matrix_figures": false,
+  "model_family": "timevae",
+  "synthetic_base_dir": "data/synthetic_subjects/timevae",
+  "synthetic_methods": [
+    "prior_v1"
+  ],
+  "method_display_names": {
+    "prior_v1": "TimeVAE-Prior"
+  }
+}

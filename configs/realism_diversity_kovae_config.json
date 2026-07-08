@@ -1,18 +1,8 @@
 {
   "project_root": "/home/iailab42/khans1/projects/ir",
-  "model_family": "kovae",
   "real_dir": "data/processed/native_rates",
-  "synthetic_base_dir": "data/synthetic_subjects/kovae",
   "results_base_dir": "results/realism_diversity",
   "figures_base_dir": "figures/realism_diversity",
-  "methods_to_evaluate": [
-    "rollout_v1",
-    "posterior_bank_v2"
-  ],
-  "method_display_names": {
-    "rollout_v1": "KoVAE-Rollout",
-    "posterior_bank_v2": "KoVAE-Posterior"
-  },
   "train_subjects": [
     "S1",
     "S2",
@@ -51,5 +41,15 @@
   "distance_batch_size": 256,
   "random_seed": 42,
   "save_plots": true,
-  "show_plots": true
+  "show_plots": true,
+  "model_family": "kovae",
+  "synthetic_base_dir": "data/synthetic_subjects/kovae",
+  "methods_to_evaluate": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "method_display_names": {
+    "rollout_v1": "KoVAE-Rollout",
+    "posterior_bank_v2": "KoVAE-Posterior"
+  }
 }

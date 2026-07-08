@@ -1,0 +1,42 @@
+{
+  "model_family": "timevae",
+  "frameworks": [
+    "aeon"
+  ],
+  "modalities": [
+    "fused"
+  ],
+  "synthetic_methods": [
+    "prior_v1"
+  ],
+  "activity_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "results_model_dir": "/home/iailab42/khans1/projects/ir/results/downstream/timevae",
+  "figures_model_dir": "/home/iailab42/khans1/projects/ir/figures/downstream/timevae",
+  "models_model_dir": "/home/iailab42/khans1/projects/ir/models/downstream/timevae",
+  "config_path": "/home/iailab42/khans1/projects/ir/configs/downstream_activity_eval_timevae_config.json",
+  "output_paths": {
+    "aggregate_downstream_results": "/home/iailab42/khans1/projects/ir/results/downstream/timevae/aggregate_downstream_results.csv",
+    "per_activity_downstream_results": "/home/iailab42/khans1/projects/ir/results/downstream/timevae/per_activity_downstream_results.csv",
+    "downstream_macro_f1_ranking": "/home/iailab42/khans1/projects/ir/results/downstream/timevae/downstream_macro_f1_ranking.csv",
+    "compact_downstream_comparison": "/home/iailab42/khans1/projects/ir/results/downstream/timevae/compact_downstream_comparison.csv"
+  },
+  "main_question": "Does training with synthetic KoVAE data improve activity recognition on real held-out test subjects?",
+  "evaluation_design": [
+    "train 10 real subjects -> test 3 real subjects",
+    "train 10 real subjects -> test 3 synthetic subjects",
+    "train 10 synthetic subjects -> test 3 real subjects",
+    "train 10 real + 10 synthetic subjects -> test 3 real subjects"
+  ],
+  "synthetic_test_subject_selection": "first_n",
+  "num_synthetic_test_subjects": 3,
+  "most_important_comparison": "real_to_real vs real_plus_synthetic_to_real__posterior_bank_v2"
+}

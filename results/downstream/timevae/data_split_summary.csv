@@ -1,0 +1,6 @@
+dataset,num_windows,subjects,activity_1_windows,activity_2_windows,activity_3_windows,activity_4_windows,activity_5_windows,activity_6_windows,activity_7_windows,activity_8_windows
+real_train,30762,"S1,S2,S3,S4,S5,S6,S9,S11,S12,S13",3032,2139,1500,2296,4580,8792,2903,5520
+real_val,6100,"S14,S15",605,432,335,449,866,1581,632,1200
+real_test,10063,"S7,S8,S10",901,635,444,697,1363,3147,1128,1748
+synthetic_train_all10_prior_v1,30000,"synthetic_subject_01,synthetic_subject_02,synthetic_subject_03,synthetic_subject_04,synthetic_subject_05,synthetic_subject_06,synthetic_subject_07,synthetic_subject_08,synthetic_subject_09,synthetic_subject_10",2901,2137,1427,2268,4457,8587,2864,5359
+synthetic_test_3subjects_prior_v1,9000,"synthetic_subject_01,synthetic_subject_02,synthetic_subject_03",865,666,456,685,1348,2563,829,1588
