@@ -1,0 +1,9 @@
+framework,model,model_family,experiment,synthetic_method,synthetic_method_display_name,modality,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,1,0.9297124600638977,0.3419506462984724,0.5,851,291,851,0.3419506462984724
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,2,0.8880706921944035,0.9663461538461539,0.9255564082885649,624,603,624,0.9663461538461539
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,3,0.947075208913649,0.8095238095238095,0.8729139922978177,420,340,420,0.8095238095238095
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,4,1.0,0.7455621301775148,0.8542372881355932,676,504,676,0.7455621301775148
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,5,0.8312428734321551,0.5560640732265446,0.6663619744058501,1311,729,1311,0.5560640732265446
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,6,0.5023094688221709,0.9688195991091314,0.6615969581749049,2694,2610,2694,0.9688195991091314
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,7,0.9748010610079576,0.8516801853997682,0.9090909090909091,863,735,863,0.8516801853997682
+aeon,MiniRocketClassifier,kovae,real_to_3synthetic,posterior_bank_v2,KoVAE-Posterior,acc,8,0.7515723270440252,0.15310698270339526,0.2543906333155934,1561,239,1561,0.15310698270339526

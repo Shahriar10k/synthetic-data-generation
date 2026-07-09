@@ -1,0 +1,39 @@
+{
+  "model_family": "kovae",
+  "synthetic_methods": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "method_display_names": {
+    "rollout_v1": "KoVAE-Rollout",
+    "posterior_bank_v2": "KoVAE-Posterior"
+  },
+  "modalities": [
+    "acc",
+    "bvp",
+    "eda",
+    "temp",
+    "fused"
+  ],
+  "frameworks": [
+    "aeon"
+  ],
+  "pretrained_results_dir": "/home/iailab42/khans1/projects/ir/models/downstream/pretrained/tsai_aeon_results",
+  "results_model_dir": "/home/iailab42/khans1/projects/ir/results/downstream_extended/kovae",
+  "figures_model_dir": "/home/iailab42/khans1/projects/ir/figures/downstream_extended/kovae",
+  "models_model_dir": "/home/iailab42/khans1/projects/ir/models/downstream_extended/kovae",
+  "config_path": "/home/iailab42/khans1/projects/ir/configs/downstream_extended_kovae_config.json",
+  "output_paths": {
+    "aggregate_results": "/home/iailab42/khans1/projects/ir/results/downstream_extended/kovae/all_framework_native_results.csv",
+    "per_activity_results": "/home/iailab42/khans1/projects/ir/results/downstream_extended/kovae/all_framework_native_per_activity_results.csv",
+    "compact_comparison": "/home/iailab42/khans1/projects/ir/results/downstream_extended/kovae/compact_downstream_extended_comparison.csv",
+    "macro_f1_ranking": "/home/iailab42/khans1/projects/ir/results/downstream_extended/kovae/downstream_extended_macro_f1_ranking.csv"
+  },
+  "main_difference_from_notebook_06": "This extended version runs all modalities and can reuse pretrained real-to-real aeon models for real-to-synthetic evaluation.",
+  "evaluation_design": [
+    "train real -> test real",
+    "train real -> test 3 synthetic subjects",
+    "train synthetic -> test real",
+    "train real + synthetic -> test real"
+  ]
+}

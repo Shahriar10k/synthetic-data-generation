@@ -1,0 +1,11 @@
+framework,experiment,native_modality,row_count,error_count,status
+tsai,real_to_real,acc,1,0,ok
+tsai,real_to_real,bvp,1,0,ok
+tsai,real_to_real,eda,1,0,ok
+tsai,real_to_real,temp,1,0,ok
+tsai,real_to_real,fused,1,0,ok
+aeon,real_to_real,acc,1,0,ok
+aeon,real_to_real,bvp,1,0,ok
+aeon,real_to_real,eda,1,0,ok
+aeon,real_to_real,temp,1,0,ok
+aeon,real_to_real,fused,1,0,ok

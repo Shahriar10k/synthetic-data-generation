@@ -1,0 +1,9 @@
+framework,model,model_family,experiment,synthetic_method,synthetic_method_display_name,modality,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,1,0.4040948275862069,0.4646840148698885,0.4322766570605187,807,375,807,0.4646840148698885
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,2,0.8058823529411765,0.862992125984252,0.8334600760456273,635,548,635,0.862992125984252
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,3,0.8516320474777448,0.6463963963963963,0.734955185659411,444,287,444,0.6463963963963963
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,4,1.0,0.9411764705882353,0.9696969696969697,697,656,697,0.9411764705882353
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,5,0.9022900763358779,0.8672046955245781,0.8843995510662177,1363,1182,1363,0.8672046955245781
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,6,0.6223796870386773,0.6715514495062122,0.6460312595770763,3139,2108,3139,0.6715514495062122
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,7,0.7950530035335689,0.598404255319149,0.6828528072837633,1128,675,1128,0.598404255319149
+aeon,MiniRocketClassifier,kovae,real_plus_synthetic_to_real,rollout_v1,KoVAE-Rollout,acc,8,0.6327995582551077,0.6567335243553009,0.6445444319460067,1745,1146,1745,0.6567335243553009
