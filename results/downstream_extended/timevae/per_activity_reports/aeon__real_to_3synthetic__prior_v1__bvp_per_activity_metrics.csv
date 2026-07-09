@@ -1,0 +1,9 @@
+framework,model,model_family,experiment,synthetic_method,synthetic_method_display_name,modality,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,1,0.12903225806451613,0.004624277456647399,0.008928571428571428,865,4,865,0.004624277456647399
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,2,0.09375,0.013513513513513514,0.023622047244094488,666,9,666,0.013513513513513514
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,3,0.061855670103092786,0.013157894736842105,0.0216998191681736,456,6,456,0.013157894736842105
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,4,0.1478494623655914,0.16058394160583941,0.15395381385584325,685,110,685,0.16058394160583941
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,5,0.14686998394863562,0.1357566765578635,0.14109483423284502,1348,183,1348,0.1357566765578635
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,6,0.31045382704899527,0.5364806866952789,0.3933066361556064,2563,1375,2563,0.5364806866952789
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,7,0.1143048128342246,0.20627261761158022,0.14709677419354839,829,171,829,0.20627261761158022
+aeon,MiniRocketClassifier,timevae,real_to_3synthetic,prior_v1,TimeVAE-Prior,bvp,8,0.21022067363530778,0.11397984886649874,0.14781543487137608,1588,181,1588,0.11397984886649874
