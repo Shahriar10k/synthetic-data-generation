@@ -1,0 +1,9 @@
+framework,model,experiment,native_modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,1,0.0,0.0,0.0,898,0,898,0.0
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,2,0.0,0.0,0.0,589,0,589,0.0
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,3,0.0,0.0,0.0,417,0,417,0.0
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,4,0.07333133792277761,0.361890694239291,0.12195121951219512,677,245,677,0.361890694239291
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,5,0.18316831683168316,0.43771746694502434,0.25826319030999795,1437,629,1437,0.43771746694502434
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,6,0.32368896925858953,0.07194533762057878,0.11772443275238409,2488,179,2488,0.07194533762057878
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,7,0.11922365988909427,0.14965197215777262,0.13271604938271606,862,129,862,0.14965197215777262
+tsai,InceptionTimePlus,real_to_synthetic,eda,4,EDA,8,0.0,0.0,0.0,1632,0,1632,0.0

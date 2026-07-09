@@ -1,0 +1,9 @@
+framework,model,experiment,native_modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",1,0.0,0.0,0.0,898,0,898,0.0
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",2,0.0,0.0,0.0,589,0,589,0.0
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",3,0.05040752351097179,0.9640287769784173,0.09580552907530981,417,402,417,0.9640287769784173
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",4,0.0,0.0,0.0,677,0,677,0.0
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",5,0.0,0.0,0.0,1437,0,1437,0.0
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",6,0.4682926829268293,0.19292604501607716,0.27327070879590093,2488,480,2488,0.19292604501607716
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",7,0.0,0.0,0.0,862,0,862,0.0
+tsai,InceptionTimePlus,real_to_synthetic,acc,32,"ACC_x,ACC_y,ACC_z",8,0.0,0.0,0.0,1632,0,1632,0.0

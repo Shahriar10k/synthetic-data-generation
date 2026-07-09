@@ -1,0 +1,9 @@
+framework,model,experiment,native_modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",1,0.0,0.0,0.0,898,0,898,0.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",2,0.0,0.0,0.0,589,0,589,0.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",3,0.07692307692307693,0.002398081534772182,0.004651162790697674,417,1,417,0.002398081534772182
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",4,0.0,0.0,0.0,677,0,677,0.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",5,0.0,0.0,0.0,1437,0,1437,0.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",6,0.27684433069989983,1.0,0.43363834422657954,2488,2488,2488,1.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",7,0.0,0.0,0.0,862,0,862,0.0
+tsai,InceptionTimePlus,real_to_synthetic,fused,64,"ACC_x,ACC_y,ACC_z,BVP,EDA,TEMP",8,0.0,0.0,0.0,1632,0,1632,0.0

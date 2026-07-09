@@ -1,0 +1,12 @@
+{
+  "model_family": "kovae",
+  "methods": [
+    "rollout_v1",
+    "posterior_bank_v2"
+  ],
+  "combined_results_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/kovae/combined_all_framework_native_results.csv",
+  "combined_activity_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/kovae/combined_all_framework_native_per_activity_results.csv",
+  "combined_coverage_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/kovae/combined_experiment_coverage_report.csv",
+  "compact_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/kovae/combined_compact_downstream_comparison.csv",
+  "ranking_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/kovae/combined_macro_f1_ranking.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "model_family": "timevae",
+  "methods": [
+    "prior_v1"
+  ],
+  "combined_results_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/combined_all_framework_native_results.csv",
+  "combined_activity_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/combined_all_framework_native_per_activity_results.csv",
+  "combined_coverage_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/combined_experiment_coverage_report.csv",
+  "compact_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/combined_compact_downstream_comparison.csv",
+  "ranking_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/combined_macro_f1_ranking.csv"
+}

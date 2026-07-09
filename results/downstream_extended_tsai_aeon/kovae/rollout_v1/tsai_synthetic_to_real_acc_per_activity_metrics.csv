@@ -1,0 +1,9 @@
+framework,model,experiment,native_modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",1,0.0,0.0,0.0,901,0,901,0.0
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",2,0.03968253968253968,0.007874015748031496,0.013140604467805518,635,5,635,0.007874015748031496
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",3,0.0,0.0,0.0,444,0,444,0.0
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",4,0.3441441441441441,0.27403156384505023,0.305111821086262,697,191,697,0.27403156384505023
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",5,0.48783977110157367,0.7505502567865003,0.5913294797687861,1363,1023,1363,0.7505502567865003
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",6,0.44016549968173135,0.43946615824594853,0.43981555096199715,3147,1383,3147,0.43946615824594853
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",7,0.2509140767824497,0.4867021276595745,0.3311218335343788,1128,549,1128,0.4867021276595745
+tsai,InceptionTimePlus,synthetic_to_real,acc,32,"ACC_x,ACC_y,ACC_z",8,0.43521594684385384,0.4496567505720824,0.4423185143500281,1748,786,1748,0.4496567505720824

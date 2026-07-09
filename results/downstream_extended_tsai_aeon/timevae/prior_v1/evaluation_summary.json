@@ -1,0 +1,31 @@
+{
+  "model_family": "timevae",
+  "synthetic_method": "prior_v1",
+  "synthetic_method_display_name": "TimeVAE-Prior",
+  "frameworks": [
+    "tsai"
+  ],
+  "modalities": [
+    "acc",
+    "bvp",
+    "eda",
+    "temp",
+    "fused"
+  ],
+  "run_real_to_real_only": false,
+  "use_real_models": true,
+  "epochs_tsai": 50,
+  "batch_size": 1024,
+  "lr_tsai": 0.001,
+  "tsai_arch": "InceptionTimePlus",
+  "aeon_n_kernels": 5000,
+  "aeon_n_jobs": 8,
+  "aeon_fix_low_variation": true,
+  "aeon_min_std": 1e-06,
+  "out_dir": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/prior_v1",
+  "real_dir": "/home/iailab42/khans1/projects/ir/data/processed/native_rates",
+  "syn_dir": "/home/iailab42/khans1/projects/ir/data/synthetic_subjects/timevae/prior_v1",
+  "pretrained_results_dir": "/home/iailab42/khans1/projects/ir/models/downstream/pretrained/tsai_aeon_results",
+  "final_results_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/prior_v1/all_framework_native_results.csv",
+  "final_activity_path": "/home/iailab42/khans1/projects/ir/results/downstream_extended_tsai_aeon/timevae/prior_v1/all_framework_native_per_activity_results.csv"
+}
