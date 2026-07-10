@@ -1,0 +1,9 @@
+framework,model,experiment,native_modality,native_hz,channels,activity_label,precision,recall,f1,support,correct_true_activity_windows,total_true_activity_windows,true_activity_window_accuracy
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,1,0.12551319648093842,0.23751387347391786,0.1642363775901765,901,214,901,0.23751387347391786
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,2,0.2073608617594255,0.3637795275590551,0.2641509433962264,635,231,635,0.3637795275590551
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,3,0.1266085512660855,0.6869369369369369,0.2138100245355766,444,305,444,0.6869369369369369
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,4,0.0,0.0,0.0,697,0,697,0.0
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,5,0.0,0.0,0.0,1363,0,1363,0.0
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,6,0.5835062240663901,0.7149666348903718,0.6425817506782807,3147,2250,3147,0.7149666348903718
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,7,0.2849846782431052,0.2473404255319149,0.26483151400094923,1128,279,1128,0.2473404255319149
+cnnbilstm,NativeCNNBiLSTM,synthetic_to_real,temp,4,TEMP,8,0.0,0.0,0.0,1748,0,1748,0.0
